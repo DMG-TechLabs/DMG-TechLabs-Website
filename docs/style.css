@@ -26,7 +26,6 @@ header {
 }
 
 .navbar a {
-    padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #DCDCDC;
@@ -43,11 +42,11 @@ header {
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 .navbar-content a {
-    margin: 0% 43.5% 1% 43.5%;
+    margin: 0% 46% 2% 46%;
 }
 
 .navbar .closebtn {
@@ -58,7 +57,7 @@ header {
 
 #nav-icon {
     color: #DCDCDC;
-    margin: 37px 0 0 37px;
+    margin: 32px 0 0 40px;
     font-size: 30px;
     transition: 0.5s;
 }
