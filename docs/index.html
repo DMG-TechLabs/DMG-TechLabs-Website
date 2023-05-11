@@ -8,6 +8,31 @@
     <script src="https://kit.fontawesome.com/3027224a98.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    .About {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        color: #DCDCDC;
+        text-align: center;
+    }
+
+    .About a {
+        text-decoration: none; 
+        color: #FF4057;
+    }
+
+    .About a:hover {
+        text-decoration: underline;
+    }
+
+    .About h1 {
+        font-size: 50px;
+    }
+    
+</style>
 <body>
     <header>
         <span><i id="nav-icon" class="fa-solid fa-bars" style="cursor: pointer;" onclick="openNavbar()"></i></span>
@@ -17,18 +42,46 @@
                 <a href="#">Projects</a>
                 <a href="#">Contact</a>
             </div>
-        </div>   
+        </div>
+
         <div class="logo">
-            <img src="./assets/125506346.png" width="600px" style="margin-top: 21vh;">
+            <img src="./assets/125506346.png" width="600px" style="margin-top: 27vh;">
         </div>
         <div class="info">
-            <h1>Header1</h1>
+            <h1>Quick info</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Cum qui, commodi necessitatibus earum provident ad beatae voluptatum perspiciatis culpa nihil excepturi tempore? 
                 Sint quae eum, dolorem ipsa obcaecati voluptate autem?
             </p>
         </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+
+        
+
     </header>  
+
+    <div class="About" id="about">
+        <h1>About Us</h1>
+        <p><br>
+           <h3>Despoinidis Konstantinos</h3>
+           Co-founder of <a href="https://github.com/DMG-TechLabs" target="_blank">DMG TechLabs</a><br>
+           Student at the Department of Information and Electronic Engineering<br>at the International Hellenic University<br>
+           <br>
+           <br>
+           <br>
+           <h3>Mokas Konstantinos</h3>
+           Co-founder of <a href="https://github.com/DMG-TechLabs" target="_blank">DMG TechLabs</a><br>
+           Student at the Department of Information and Electronic Engineering<br>at the International Hellenic University<br>
+           <br>
+           <br>
+           <br>
+           <h3>Georgalis Athanasios</h3>
+           Co-founder of <a href="https://github.com/DMG-TechLabs" target="_blank">DMG TechLabs</a><br>
+           Student at the Department of Information and Electronic Engineering<br>at the International Hellenic University<br>
+        </p>
+    </div>
 
     <script>
         function openNavbar(){
