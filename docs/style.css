@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 body{
@@ -13,8 +14,8 @@ header {
 }
 
 .navbar {
-    height: 100%;
-    width: 0;
+    height: 100vh;
+    width: 100vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -23,6 +24,9 @@ header {
     background-color: rgba(0,0,0, 0.8);
     overflow-x: hidden;
     transition: 0.5s;
+
+    display: grid;
+    place-items: center;
 }
 
 .navbar a {
@@ -38,15 +42,12 @@ header {
 }
 
 .navbar-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 15px;
+    display: grid;
+    place-items: center;
 }
 
 .navbar-content a {
-    margin: 0% 46% 2% 46%;
+    margin: 0.5em;
 }
 
 .navbar .closebtn {
@@ -77,7 +78,7 @@ header {
     color: #DCDCDC;
 }
 
-@media screen and (max-device-width: 425px){
+@media screen and (max-width: 600px){
     .navbar-content a {
         margin: 0% 35% 2% 35%;
     }
